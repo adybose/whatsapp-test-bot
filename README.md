@@ -1,2 +1,2 @@
 # whatsapp-test-bot
-A simple Whatsapp bot to test the Twilio sandbox
+A simple Whatsapp bot to test the Twilio Sandbox
