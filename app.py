@@ -6,9 +6,9 @@ import constants
 client = Client(constants.account_sid, constants.auth_token)
 
 # this is the Twilio sandbox testing number
-from_whatsapp_number=constants.from_whatsapp_number
+from_whatsapp_number = constants.from_whatsapp_number
 # replace this number with your own WhatsApp Messaging number
-to_whatsapp_number=constants.to_whatsapp_number
+to_whatsapp_number = constants.to_whatsapp_number
 
 message = client.messages.create(body='Hello, World!',
                        from_=from_whatsapp_number,
